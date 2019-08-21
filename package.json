@@ -1,0 +1,17 @@
+{
+  "name": "swagger-auto-gen",
+  "version": "1.0.0",
+  "description": "A POC for autogenerating swagger documents in an express api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Bray",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "swagger-jsdoc": "^3.4.0",
+    "swagger-ui-express": "^4.0.7"
+  }
+}
